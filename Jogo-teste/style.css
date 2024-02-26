@@ -1,0 +1,54 @@
+#barras-de-vida {
+    display: flex;
+    margin: 20px 60px;
+}
+
+#vidaJogador {
+    width: 300px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-right: 200px;
+}
+
+#vidaCorJogador {
+    height: 100%;
+    background-color: #f44336;
+    width: 0;
+    border-radius: 10px;
+}
+
+#vidaPc {
+    width: 300px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+#vidaCorPC {
+    height: 100%;
+    background-color: #f44336;
+    width: 0;
+    border-radius: 10px;
+}
+
+.main {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 200px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articles article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    flex: 0 0 calc(33.33% - 20px);
+}
